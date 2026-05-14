@@ -1,0 +1,175 @@
+ body {
+    font-family: arial, sans-serif;
+    background-color: black;
+    color: white;
+    background-image:url(images/yes.png)
+ }
+ header {
+    background color: blue ; 
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+ }
+ nav a{
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: flex-end;
+ }
+ nav a:hover {
+    color: #38bdf8;
+    justify-content: flex-end;
+ }
+ .define {
+    background-color: white;
+    text-align: center;
+    padding: 60px 20px;
+    background: url("images/CYBER,jpg") no-repeat center/cover;
+ }
+.define h2 {
+    font-size: 2.5rem;
+}
+.define p {
+    margin: 15px;
+
+}
+.buttons  {
+    margin-top: 20px;
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-primary {
+    background: #22c55e;
+    color: white;
+}
+.btn-secondary {
+background: transparent;
+border: 2px solid white;
+color: white;
+}
+.domains {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+    
+    text-align: center;
+}
+.card {
+    background: #1f2937;
+    padding: 40px;
+    border-radius: 10px;
+    width: 280px;
+    text-align: center;
+}
+.card h3 {
+    color: #38bdf8;
+    text-align: center;
+}
+.articles {
+    padding: 40px 20px;
+}
+.articles h2 {
+    text-align: center;
+}
+.article-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+.article {
+    background: #1f2937;
+    padding: 15px;
+    border-radius: 1opx;
+    width: 280px;
+}
+.article img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background:  linear-gradient(90deg,#1e3a8a, #9333ea); ;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #38bdf8;
+    margin: 0 10px;
+    text-decoration: none;
+}
+@media (max-width: 480px) {
+    .define {
+        padding: 480px 15px;
+    }
+    .define h2 {
+        font-size: 2rem;
+    }
+    .card, .article {
+        width: 100%;
+    }
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+section {
+    justify-content: center;
+}
+main {
+    flex: 1;
+    background-color: none;
+    padding: 0px;
+    border-radius: 8px;
+    margin: 0px;
+    gap: 5px;
+}
+.container {
+    display: flex;
+    gap: 20px;
+}
+aside {
+    flex: 1;
+    padding: 0px;
+    background-color: #020617;
+    border-radius: 8px;
+}
+aside img {
+width: 600px;
+border: transparent;
+}
+.domain-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.domain-card img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 15px;
+     background: #1f2937;
+    padding: 15px;
+    border-radius: 10px; 
+}
+h4 {
+    text-align: center;
+}
+h2 {
+    text-align:left;
+    margin: 50px;
+    padding: 20px;
+}
+ul{list-style: none;}
+
